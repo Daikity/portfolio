@@ -1,0 +1,108 @@
+/* app */
+
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: lightgrey;
+}
+body{
+  font-family: "Gilroy-UltraLight", sans-serif;
+  background: url('~@/assets/background.jpg') no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: bottom right;
+}
+
+
+/* routes */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: .7em 0;
+}
+.site_logo{
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+.logo{
+  padding: 1.5em;
+  margin: 0 .5em;
+  background: greenyellow;
+}
+.top_menu{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 1em;
+}
+
+.top_menu a{
+  font-weight: bold;
+  color: lightgrey;
+  display: flex;
+  align-items: center;
+  padding: .5em 1em;
+  border-left: none;
+  text-decoration: none;
+  min-width: 3em;
+  justify-content: center;
+}
+
+a:hover{
+  color: #a4d9dd;
+}
+
+a.router-link-exact-active {
+  color: #a4d9dd;
+  border: 1px solid #a4d9dd;
+}
+
+a.router-link-exact-active:hover {
+  color: #a4d9dd;
+}
+
+/* home */
+
+.home{
+  margin: 6em 3em;
+  background: white;
+  color: rgb(48, 48, 48);
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 1.4em;
+}
+
+.image{
+  background: grey;
+  height: 20em;
+  width: 100%;
+}
+.name{
+  padding: .3em 0;
+  color: rgb(24, 24, 24);
+  font-size: 1.5em;
+}
+.name span{
+  margin-right: .2em;
+  color: grey;
+}
+
+.job{
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 0.9rem;
+  background: lightgrey;
+  padding: 0.7rem 3rem;
+  max-width: 70%;
+  font-weight: 400;
+  color: rgb(36, 36, 36);
+}
