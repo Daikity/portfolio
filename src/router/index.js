@@ -1,5 +1,4 @@
-/* eslint-disable no-unused-vars */
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter } from 'vue-router'
 
 const routes = [
   {
